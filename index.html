@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Paket WiFi IndiHome</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .container h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #800000;
+      }
+      .package {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      .card {
+        flex: 1 1 calc(33.333% - 20px);
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background: #f9f9f9;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .card h2 {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #333;
+      }
+      .card p {
+        margin: 5px 0;
+        color: #555;
+      }
+      .btn-select {
+        background: #800000;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        display: inline-block;
+      }
+      .btn-select:hover {
+        background: #660000;
+      }
+      @media (max-width: 768px) {
+        .card {
+          flex: 1 1 calc(50% - 20px);
+        }
+      }
+      @media (max-width: 480px) {
+        .card {
+          flex: 1 1 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pilih Paket WiFi IndiHome</h1>
+      <div class="package">
+        <div class="card">
+          <h2>10 Mbps</h2>
+          <p>Rp 150.000/bulan</p>
+          <p>Biaya Pasang Rp 100.000</p>
+          <a href="form.html?paket=10 Mbps" class="btn-select">Pilih Paket</a>
+        </div>
+        <div class="card">
+          <h2>30 Mbps (Internet Only)</h2>
+          <p>Rp 220.000/bulan</p>
+          <p>Biaya Pasang Rp 100.000</p>
+          <a
+            href="form.html?paket=30 Mbps (Internet Only - 220K)"
+            class="btn-select"
+            >Pilih Paket</a
+          >
+        </div>
+        <div class="card">
+          <h2>30 Mbps (Internet + TV)</h2>
+          <p>Rp 340.000/bulan</p>
+          <p>Biaya Pasang Rp 50.000</p>
+          <a href="form.html?paket=30 Mbps (Internet & TV)" class="btn-select"
+            >Pilih Paket</a
+          >
+        </div>
+        <div class="card">
+          <h2>30 Mbps (Internet Only)</h2>
+          <p>Rp 280.000/bulan</p>
+          <p>Biaya Pasang Rp 50.000</p>
+          <a
+            href="form.html?paket=30 Mbps (Internet Only - 280K)"
+            class="btn-select"
+            >Pilih Paket</a
+          >
+        </div>
+        <div class="card">
+          <h2>50 Mbps (Internet Only)</h2>
+          <p>Rp 299.000/bulan</p>
+          <p>Gratis Biaya Pemasangan</p>
+          <a href="form.html?paket=50 Mbps (Internet Only)" class="btn-select"
+            >Pilih Paket</a
+          >
+        </div>
+        <div class="card">
+          <h2>50 Mbps (Internet + TV)</h2>
+          <p>Rp 505.000/bulan</p>
+          <p>Gratis Biaya Pemasangan</p>
+          <a href="form.html?paket=50 Mbps (Internet & TV)" class="btn-select"
+            >Pilih Paket</a
+          >
+        </div>
+        <div class="card">
+          <h2>100 Mbps (Internet Plus)</h2>
+          <p>Rp 375.000/bulan</p>
+          <p>Gratis Biaya Pemasangan</p>
+          <a href="form.html?paket=100 Mbps (Internet Plus)" class="btn-select"
+            >Pilih Paket</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
